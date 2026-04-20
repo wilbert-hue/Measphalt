@@ -1,63 +1,167 @@
 {
-  "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+  "GCC Countries": {
+    "By Product Type": {
+      "Emulsion Based Cold Mix": {},
+      "Cutback Asphalt Mix": {},
+      "Foamed Asphalt Mix": {},
+      "Cold Recycled Mix": {},
+      "Proprietary or Specialty Cold Mix": {}
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Gradation": {
+      "Dense Graded Cold Mix": {},
+      "Open Graded Cold Mix": {},
+      "Gap Graded or Specialty Graded Cold Mix": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Binder": {
+      "Cationic Emulsion Based": {},
+      "Anionic Emulsion Based": {},
+      "Polymer Modified Emulsion Based": {},
+      "Cutback Asphalt Based": {},
+      "Foamed Bitumen Based": {},
+      "Bio Based or Sustainable Binder Based": {}
+    },
+    "By Setting or Curing Type": {
+      "Rapid Setting Cold Mix": {},
+      "Medium Setting Cold Mix": {},
+      "Slow Setting Cold Mix": {},
+      "Long Workability Stockpile Mix": {},
+      "All Weather Cold Mix": {}
+    },
+    "By Application": {
+      "Pothole Repair": {},
+      "Patch Repair": {},
+      "Utility Cut Reinstatement": {},
+      "Shoulder Repair": {},
+      "Edge Repair": {},
+      "Surface Restoration": {},
+      "Pavement Rehabilitation": {},
+      "Low Volume Road Construction": {},
+      "Temporary Road Surfacing": {},
+      "Parking Lot Repair": {},
+      "Airport Pavement Repair": {},
+      "Industrial Yard Repair": {}
+    },
+    "By Distribution Channel": {
+      "Direct Sales": {},
+      "Indirect Sales (via Distributors)": {}
     },
     "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+      "Government or Municipal Authorities": {},
+      "Infrastructure & Government Projects": {},
+      "Construction Companies or Contractors": {},
+      "Commercial & Industrial Sector": {},
+      "Real Estate Developers": {},
+      "Others": {}
+    }
+  },
+  "Israel": {
+    "By Product Type": {
+      "Emulsion Based Cold Mix": {},
+      "Cutback Asphalt Mix": {},
+      "Foamed Asphalt Mix": {},
+      "Cold Recycled Mix": {},
+      "Proprietary or Specialty Cold Mix": {}
     },
-    "By Region": {
-      "North America": {
-        "U.S.": {},
-        "Canada": {}
-      },
-      "Europe": {
-        "U.K.": {},
-        "Germany": {},
-        "Italy": {},
-        "France": {},
-        "Spain": {},
-        "Russia": {},
-        "Rest of Europe": {}
-      },
-      "Asia Pacific": {
-        "China": {},
-        "India": {},
-        "Japan": {},
-        "South Korea": {},
-        "ASEAN": {},
-        "Australia": {},
-        "Rest of Asia Pacific": {}
-      },
-      "Latin America": {
-        "Brazil": {},
-        "Argentina": {},
-        "Mexico": {},
-        "Rest of Latin America": {}
-      },
-      "Middle East & Africa": {
-        "GCC": {},
-        "South Africa": {},
-        "Rest of Middle East & Africa": {}
-      }
+    "By Gradation": {
+      "Dense Graded Cold Mix": {},
+      "Open Graded Cold Mix": {},
+      "Gap Graded or Specialty Graded Cold Mix": {}
+    },
+    "By Binder": {
+      "Cationic Emulsion Based": {},
+      "Anionic Emulsion Based": {},
+      "Polymer Modified Emulsion Based": {},
+      "Cutback Asphalt Based": {},
+      "Foamed Bitumen Based": {},
+      "Bio Based or Sustainable Binder Based": {}
+    },
+    "By Setting or Curing Type": {
+      "Rapid Setting Cold Mix": {},
+      "Medium Setting Cold Mix": {},
+      "Slow Setting Cold Mix": {},
+      "Long Workability Stockpile Mix": {},
+      "All Weather Cold Mix": {}
+    },
+    "By Application": {
+      "Pothole Repair": {},
+      "Patch Repair": {},
+      "Utility Cut Reinstatement": {},
+      "Shoulder Repair": {},
+      "Edge Repair": {},
+      "Surface Restoration": {},
+      "Pavement Rehabilitation": {},
+      "Low Volume Road Construction": {},
+      "Temporary Road Surfacing": {},
+      "Parking Lot Repair": {},
+      "Airport Pavement Repair": {},
+      "Industrial Yard Repair": {}
+    },
+    "By Distribution Channel": {
+      "Direct Sales": {},
+      "Indirect Sales (via Distributors)": {}
+    },
+    "By End User": {
+      "Government or Municipal Authorities": {},
+      "Infrastructure & Government Projects": {},
+      "Construction Companies or Contractors": {},
+      "Commercial & Industrial Sector": {},
+      "Real Estate Developers": {},
+      "Others": {}
+    }
+  },
+  "Rest of Middle East": {
+    "By Product Type": {
+      "Emulsion Based Cold Mix": {},
+      "Cutback Asphalt Mix": {},
+      "Foamed Asphalt Mix": {},
+      "Cold Recycled Mix": {},
+      "Proprietary or Specialty Cold Mix": {}
+    },
+    "By Gradation": {
+      "Dense Graded Cold Mix": {},
+      "Open Graded Cold Mix": {},
+      "Gap Graded or Specialty Graded Cold Mix": {}
+    },
+    "By Binder": {
+      "Cationic Emulsion Based": {},
+      "Anionic Emulsion Based": {},
+      "Polymer Modified Emulsion Based": {},
+      "Cutback Asphalt Based": {},
+      "Foamed Bitumen Based": {},
+      "Bio Based or Sustainable Binder Based": {}
+    },
+    "By Setting or Curing Type": {
+      "Rapid Setting Cold Mix": {},
+      "Medium Setting Cold Mix": {},
+      "Slow Setting Cold Mix": {},
+      "Long Workability Stockpile Mix": {},
+      "All Weather Cold Mix": {}
+    },
+    "By Application": {
+      "Pothole Repair": {},
+      "Patch Repair": {},
+      "Utility Cut Reinstatement": {},
+      "Shoulder Repair": {},
+      "Edge Repair": {},
+      "Surface Restoration": {},
+      "Pavement Rehabilitation": {},
+      "Low Volume Road Construction": {},
+      "Temporary Road Surfacing": {},
+      "Parking Lot Repair": {},
+      "Airport Pavement Repair": {},
+      "Industrial Yard Repair": {}
+    },
+    "By Distribution Channel": {
+      "Direct Sales": {},
+      "Indirect Sales (via Distributors)": {}
+    },
+    "By End User": {
+      "Government or Municipal Authorities": {},
+      "Infrastructure & Government Projects": {},
+      "Construction Companies or Contractors": {},
+      "Commercial & Industrial Sector": {},
+      "Real Estate Developers": {},
+      "Others": {}
     }
   }
 }

@@ -146,14 +146,14 @@ export function GlobalKPICards() {
     const actualSelectedGeographies = filters.geographies.length > 0 ? filters.geographies : []
     const dataTypeLabel = filters.dataType === 'value' ? 'Market Size' : 'Market Volume'
 
-    // Get market name from metadata, fallback to "Global Market"
-    const marketName = data.metadata.market_name || 'Global Market'
+    // Get market name from metadata (avoid "Global" here — empty geography filter means all regions in the dataset, not necessarily worldwide)
+    const marketName = data.metadata.market_name || 'Market'
 
     const geographyLabel = actualSelectedGeographies.length === 0
-      ? `Global ${marketName}`
+      ? `All regions — ${marketName}`
       : actualSelectedGeographies.length === 1
       ? `${actualSelectedGeographies[0]} ${marketName}`
-      : `${actualSelectedGeographies.length} Geographies ${marketName}`
+      : `${actualSelectedGeographies.length} regions — ${marketName}`
     const segmentTypeLabel = targetSegmentType || 'All Segments'
 
     return {
@@ -273,6 +273,14 @@ export function GlobalKPICards() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div
+          role="alert"
+          className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-950"
+        >
+          <span className="font-semibold">NOTE: </span>
+          All the data in the dashboard is demo data. No real-world data is related to this.
         </div>
       </div>
     </div>

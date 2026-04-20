@@ -470,7 +470,7 @@ export function D3BubbleChartIndependent({ title, height = 500 }: BubbleChartPro
       // Check if data exists for selected geographies with the current segment type
       const selectedGeos = activeFilters.geographies || []
       const hasSpecificRegions = selectedGeos.length > 0 && !selectedGeos.includes('Global')
-      const regionalGeographies = ['North America', 'Europe', 'Asia Pacific', 'Latin America', 'Middle East & Africa', 'Middle East', 'Africa', 'ASEAN', 'SAARC Region', 'CIS Region']
+      const regionalGeographies = ['North America', 'Europe', 'Asia Pacific', 'Latin America', 'Middle East & Africa', 'Middle East', 'Africa', 'ASEAN', 'SAARC Region', 'CIS Region', 'GCC Countries', 'Israel', 'Rest of Middle East']
       const hasRegionalSelection = selectedGeos.some(g => regionalGeographies.includes(g))
 
       if (hasSpecificRegions && hasRegionalSelection) {
@@ -517,7 +517,10 @@ export function D3BubbleChartIndependent({ title, height = 500 }: BubbleChartPro
             'Middle East & Africa': 0.04,
             'ASEAN': 0.10,
             'SAARC Region': 0.08,
-            'CIS Region': 0.05
+            'CIS Region': 0.05,
+            'GCC Countries': 0.45,
+            Israel: 0.2,
+            'Rest of Middle East': 0.35
           }
 
           // Calculate sum of market shares for selected regions
@@ -612,7 +615,7 @@ export function D3BubbleChartIndependent({ title, height = 500 }: BubbleChartPro
 
         if (isByRegionSegmentType) {
           const selectedGeos = activeFilters.geographies || []
-          const mainRegions = ['North America', 'Europe', 'Asia Pacific', 'Latin America', 'Middle East & Africa', 'Middle East', 'Africa', 'ASEAN', 'SAARC Region', 'CIS Region']
+          const mainRegions = ['North America', 'Europe', 'Asia Pacific', 'Latin America', 'Middle East & Africa', 'Middle East', 'Africa', 'ASEAN', 'SAARC Region', 'CIS Region', 'GCC Countries', 'Israel', 'Rest of Middle East']
 
           // Check if a specific region is selected (not Global, not multiple regions)
           const isSingleRegionSelected = selectedGeos.length === 1 &&
